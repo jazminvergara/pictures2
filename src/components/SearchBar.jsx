@@ -18,7 +18,7 @@ function SearchBar({onSubmit}){
         onSubmit(term)
     }
     return(
-        <div>
+        <div className="search-bar">
             <h1>Search Bar</h1>
             <form onSubmit={handleFormSubmit}>
                 confirma tu busqueda: {term}
