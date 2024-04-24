@@ -23,7 +23,7 @@ function SearchBar({onSubmit}){
             <h1>Search Bar</h1>
             <form onSubmit={handleFormSubmit}>
                 confirma tu busqueda: {term}
-                <input onChange={handleClick} value={term}/>
+                <input onChange={handleChange} value={term}/>
             </form>
             <button onClick={handleClick}>Click me </button>
         </div>
